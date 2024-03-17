@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/0hsdy2dksadcm.png");
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(102, 102, 102);
+    color: white;
+    padding: 10px 20px;
+    justify-content: space-around;
+}
+
+
+.right-content {
+    flex-shrink: 0;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:rgb(236, 111, 55);
+    padding: 20px 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone, .speed, .chat {
+    padding: 15px;
+}
+
+.left-content:hover{
+    cursor: pointer;
+}
+
+.footer-item:hover{
+    cursor: pointer;
+}
+
+.form-container {
+    margin: 15% 10% 0 10%;
+    width: auto;
+    border: 1px solid transparent;
+    background-color: rgb(255, 250, 245);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.form-container input[type="text"],
+.form-container button {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+.form-container button {
+    background-color: rgb(236, 111, 55);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
